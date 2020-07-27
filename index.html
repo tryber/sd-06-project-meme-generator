@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <h1>Este é o nosso Meme Genarator!</h1>
-
-    Selecione a sua imagem aqui >>> <input type="file" value="Meme da vez!" accept="image/*">
-
-    Agora, um texto para a imagem >>> <input type="text" value="go go Tryber!" maxlength="100">
-
-    <div id="fotoupload"></div>
-
-    <div id="fire"></div>
-    <div id="water"></div>
-    <div id="earth"></div>
-
+    <header>
+        <h1>Este é o nosso Meme Genarator!</h1>
+    </header>
+    Selecione a sua imagem aqui >>> <input type="file" id="text-input" accept="image/*">
+    Agora, um texto para a imagem >>> <input id="readText" type="text" maxlength="60">
+    <div id="meme-image-container">
+        <div id="meme-text"></div>
+    </div>
+    <div type='bottom' id="fire"></div>
+    <div type='bottom' id="water"></div>
+    <div type='bottom' id="earth"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
