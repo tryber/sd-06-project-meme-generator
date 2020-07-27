@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(149, 255, 139);
+    background-color: rgb(176, 236, 171);
     padding-left: 50px;
 }
-#fotoupload {
+#meme-image-container {
     color: black;
     width: 400px;
     height: 400px;
@@ -20,6 +20,7 @@ body {
     left: 500px;
     top: 170px;
     border: solid black;
+    background-color: red;
     
 }
 #water {
@@ -30,6 +31,7 @@ body {
     left: 500px;
     top: 200px;
     border: solid black;
+    background-color: blue;
 }
 #earth {
     position: absolute;
@@ -39,5 +41,6 @@ body {
     left: 500px;
     top: 230px;
     border: solid black;
+    background-color: green;
 }
 
