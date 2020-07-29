@@ -1,0 +1,86 @@
+body {
+  background-color: darkslategray;
+  color: white;
+  font-family: ubuntu, sans-serif;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+p , .text-input {
+  display: inline-block;
+  margin: 10px auto;
+  margin-top: 25px;
+}
+
+.text-input {
+  color: darkslategray;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: 0;
+  color: darkslategray;
+  font-family: ubuntu, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.img-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 350px;
+  margin: 25px auto;
+  position: relative;
+  width: 350px;
+}
+
+.img {
+  height: 350px;
+  width: 350px;
+}
+
+.text-container {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+.element-button-fire {
+  background-color: red;
+  height: 50px;
+  margin-left: 15px;
+  width: 75px;
+}
+
+.element-button-water {
+  background-color: blue;
+  height: 50px;
+  margin-left: 15px;
+  width: 75px;
+}
+
+.element-button-earth {
+  background-color: green;
+  height: 50px;
+  margin-left: 15px;
+  width: 75px;
+}
+
+.pre-defined-meme-box {
+  border: 1px solid white;
+  height: 75px;
+  margin-left: 15px;
+  margin-top: 25px;
+  width: 75px;
+}

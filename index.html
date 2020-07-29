@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type='text/css' href='./style.css'>
+  <title>Meme Generator Project</title>
+</head>
+<body>
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
+
+  <section>
+    <p>Insert meme text:</p>
+    <input id='text-input' class='text-input' maxlength='60'>
+  </section>
+
+  <section>
+    <p>Insert meme image:</p>
+
+    <input type='file' accept='image/*' id='meme-insert'>
+  </section>
+
+  <div id='meme-image-container' class='img-container'>
+    <div id='meme-text' class='text-container'></div>
+    <img id='meme-image' class='img' alt='meme'>
+  </div>
+
+  <section>
+    <p>Choose border element:</p>
+    <button id='fire' class='element-button-fire'>Fire</button>
+    <button id='water' class='element-button-water'>Water</button>
+    <button id='earth' class='element-button-earth'>Earth</button>
+  </section>
+
+  <section>
+    <p>Choose pre-defined meme image:</p>
+    <img id='meme-1' class='pre-defined-meme-box' src='./imgs/meme1.png'>
+    <img id='meme-2' class='pre-defined-meme-box' src='./imgs/meme2.png'>
+    <img id='meme-3' class='pre-defined-meme-box' src='./imgs/meme3.png'>
+    <img id='meme-4' class='pre-defined-meme-box' src='./imgs/meme4.png'>
+  </section>
+
+  <script type='text/javascript' src='./script.js'></script>
+
+</body>
+</html>
