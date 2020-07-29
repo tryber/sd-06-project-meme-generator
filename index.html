@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <h1> Meme Generator</h1>
+        
+            <section>
+                <label for = "texto"><strong>TEXT: </strong></label>
+                <input type = "text" id = "text-input" maxlength="60">
+            </section><br>
+            <section class = "imgInput">
+                <label for="image"><strong>PICTURE: </strong></label>
+                <input type="file" id = "meme-insert" accept="image/*">
+                <input type="submit">
+            </section><br>
+            <div id="meme-image-container" class="container">
+                <div id = "meme-image" class="meme_image">
+                </div>
+                <div id="meme-text" class="meme_text"></div>
+            </div>
+
+        <section class="options">
+            <h3 >Border Color</h3>
+            <button id="fire" class="fb">Fire</button>
+            <button id="water" class="wb">Water</button>
+            <button id="earth"class="eb">Earth</button>
+        </section>
+
+        <h3>Or choose one picture</h3>
+        <section class="miniPic">
+            <div id="firstPic" class=first_pic></div>
+            <div id="secondPic" class=second_pic></div>
+            <div id="thirdPic" class=third_pic></div>
+            <div id="fourthPic" class=fourth_pic></div>
+        </section>
+
+    <script src="script.js"></script>
+    </body>
+</html>
