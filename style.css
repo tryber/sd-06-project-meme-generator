@@ -1,0 +1,44 @@
+body, html {
+  font-family: monospace;
+  font-size: 15px;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 20px;
+  width: 100%;
+}
+
+#meme-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px black solid;
+  height: 400px;
+  margin-top: 10px;
+  width: 50%;
+  z-index: 0;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  overflow-wrap: break-word;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+.botao {
+  display: inline-block;
+  height: 60px;
+  width: 80px;
+}
+
+.imagens{
+  margin-left: 20px;
+}
