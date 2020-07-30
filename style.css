@@ -1,0 +1,192 @@
+/*
+
+{font-family: 'Anton', sans-serif;
+}
+
+{font-family: 'Bungee Outline', cursive;
+}
+
+{font-family: 'Lato', sans-serif;
+}
+
+*/
+
+body {
+    background-image: url("https://cdn.wallpapersafari.com/14/14/LK0gV3.jpg");
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#text-input{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(26, 26, 26);
+    border: 0px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 500px;
+
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#meme-insert{
+
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 1px;
+    background-color: rgb(26, 26, 26);
+    border: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 500px;
+
+}
+
+input[type=file] {
+    background-color: rgb(26, 26, 26);
+    border: 0px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#meme-text{
+    position: absolute;
+    bottom:70px;
+    font-family: 'Anton', sans-serif;
+    z-index: 3;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 20px;
+    word-wrap: break-word;
+    max-width: 450px;
+}
+
+#meme-image{
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+}
+
+#meme-image-container{
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    background-color: white;
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+}
+
+#borders{
+    position: relative;
+    top: -10px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
+}
+
+#fire{
+    border-width: 0px;
+    background-color: rgb(255, 0, 0);
+    height: 30px;
+    width: 32%;
+    margin: 2px;
+}
+
+#water{
+    border-width: 0px;
+    background-color: rgb(0, 0, 255);
+    height: 30px;
+    width: 32%;
+    margin: 2px;
+}
+
+#earth{
+    border-width: 0px;
+    background-color: rgb(0, 128, 0);
+    height: 30px;
+    width: 32%;
+    margin: 2px;
+}
+
+
+#containers-wrapper{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: black;
+}
+
+#meme-1{
+    background: url("././imgs/meme1.png");
+    background-size:contain;
+    height: 70px;
+    width: 23%;
+    margin: 3px;
+    border: 0px;
+}
+
+#meme-2{
+    background: url("././imgs/meme2.png");
+    height: 70px;
+    background-size:contain;
+    width: 23%;
+    margin: 3px;
+    border: 0px;
+}
+
+#meme-3{
+    background: url("././imgs/meme3.png");
+    background-size:contain;
+    height: 70px;
+    width: 23%;
+    margin: 3px;
+    border: 0px;
+}
+
+#meme-4{
+    background: url("././imgs/meme4.png");
+    background-size:contain;
+    height: 70px;
+    width: 23%;
+    margin: 3px;
+    border: 0px;
+}
+
