@@ -3,10 +3,26 @@
   <head>
     <title>Meme-Generator</title>
     <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
+    <header>
+    <h1>Meme-Generator</h1>
+    </header>
+<section>
+   Insert your text here: <input type="text" id="text-input" name="Name" maxlength="60" /> <br> <br>
+   Picture: <input type="file" id="meme-image" accept=".jpg, .gif, .png" />
 
+   <div id="meme-image-container" class="meme-image-container">
+    <img id="meme-image" class="meme-image"></img>
+    <p id="meme-text" class="meme-text"></p>
+</div>
+<p>Estilos customizados: </p>
+    <button id="fire" class="fire">FIRE</button>
+    <button id="water" class="water">WATER</button>
+    <button id="earth" class="earth">EARTH</button>
+</section>
   </body>
 </html>
