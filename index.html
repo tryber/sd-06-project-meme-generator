@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+  <h1>Meme generator</h1>
+  Inserir texto:
+  <input type = "text" id = "text-input" maxlength="60"><br>
+  Inserir imagem:
+  <form method="POST" action="" enctype="multipart/form-data">
+    <input type='file' name="imagem" accept='image/*' id='meme-insert'>
+  </form>
+  <div id = "meme-image-container">
+    <div id = "meme-text"></div>
+    <div id = "meme-image">
+      <img>
+    </div>
+  </div>
+  <br>
+  <section class="borda">
+    <button id="fire">Fire</button>
+    <button id="water">Water</button>
+    <button id="earth">Earth</button>
+  </section>
+  <script src = "script.js"></script>
+</body>
+</html>
