@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Meme Generation</title>
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <section>
+    <label for="text-input" class="subtitle">Meme Text:</label>
+    <input type="text" id="text-input" class="input-field" maxlength="60"><br>
+    <label for="meme-insert">Meme Picture:</label>
+    <input type="file" id="meme-insert" class="input-field"><br>
+    <div id="meme-image-container" class="container">
+      <img src="" id="meme-image" class="image">
+      <div id="meme-text" class="text"></div>
+    </div>
+  </section>
+  <section>
+    <button class="border-button fire-button" id="fire">Fire</button>
+    <button class="border-button water-button" id="water">Water</button>
+    <button class="border-button earth-button" id="earth">Earth</button>
+  </section>
+  <section id="lista-memes" class="meme-pics">
+    <img id="meme-1" class="meme-pic" src="imgs/meme1.png">
+    <img id="meme-2" class="meme-pic" src="imgs/meme2.png">
+    <img id="meme-3" class="meme-pic" src="imgs/meme3.png">
+    <img id="meme-4" class="meme-pic" src="imgs/meme4.png">
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(8 , 0 , 85);
+  text-align: center;
+}
+
+h1 , label {
+  color: rgb(170 , 170 , 247);
+}
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 750px;
+}
+
+.text {
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 75%;
+  width: inherit;
+}
+
+.image {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.border-button {
+  margin-top: 25px;
+}
+
+.fire-button {
+  background-color: red;
+}
+
+.water-button {
+  background-color: blue;
+}
+
+.earth-button {
+  background-color: green;
+}
+
+.meme-pics {
+  margin-top: 25px;
+}
+
+.meme-pic {
+  height: 75px;
+  object-fit: cover;
+  width: 75px;
+}
