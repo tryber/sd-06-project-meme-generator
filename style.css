@@ -1,0 +1,54 @@
+.content {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.earth {
+  background-color: green;
+}
+
+.fire {
+  background-color: red;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.margin-img {
+  float: left;
+  margin-left: 15px;
+}
+
+.text-input-field {
+  margin: 10px 0;
+  width: 294px;
+}
+
+.text-img {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  height: 140px;
+  left: 10px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 300px;
+  width: 290px;
+  z-index: 2;
+}
+
+.water {
+  background-color: blue;
+}
