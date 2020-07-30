@@ -1,5 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
+    background-color: pink;
+
+
 }
 
 
@@ -14,16 +17,16 @@ body {
 .meme-image {
 
     position: absolute;
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
 }
 
 .meme-image-container {
 
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     border: 1px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 
 }
 .fire {
