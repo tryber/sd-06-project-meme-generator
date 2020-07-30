@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MEME GENERATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <h1 id="title" class="title">Meme Generator!</h1>
+        <p>The Fastest Meme Generator on the Planet! Easily add text to images or memes.</p>
+    </header>
+
+    <article id="inputs-container">
+
+        <section>
+            <div>
+            Text:
+            <input id="text-input" type="text" maxlength="60" placeholder=" Maximum 60 characters">
+            </div>
+            <div>
+            Image:
+            <input id="meme-insert" type="file">
+            </div>
+        </section>
+
+        <section id="meme-image-container" class="meme-image-container">
+            <div id="meme-text" class="meme-text"></div>
+            <img id="meme-image" class="meme-image" src="" alt="meme">
+        </section>
+
+        <div id="presets-images" class="presets-images">
+            <img id="meme-1" class="preset-image" src="imgs/meme1.png" width="90px" height="60px" alt="First meme preset image">
+            <img id="meme-2" class="preset-image" src="imgs/meme2.png" width="90px" height="60px" alt="Second meme preset image">
+            <img id="meme-3" class="preset-image" src="imgs/meme3.png" width="90px" height="60px" alt="Third meme preset image">
+            <img id="meme-4" class="preset-image" src="imgs/meme4.png" width="90px" height="60px" alt="Fourth meme preset image">
+        </div>
+
+        <button id="fire" class="fire">Fire</button>
+        <button id="water" class="water">Water</button>
+        <button id="earth" class="earth">Earth</button>
+    </article>
+
+    <footer id="footer">
+        <p>Developed by Lais Gurgel - 2020</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

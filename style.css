@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(69 , 123 , 157);
+  font-family: Montserrat, sans-serif;
+  margin: 30px;
+}
+
+.title {
+  color: white;
+  font-family: Galada, cursive;
+  font-size: 40px;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  width: 400px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 10px;
+  width: 400px;
+}
+
+.meme-image {
+  height: 399px;
+  width: 399px;
+}
