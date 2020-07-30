@@ -1,0 +1,30 @@
+.container {
+  box-sizing: border-box;
+  margin-left: 20px;
+  width: 50%;
+}
+
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 402px;
+  width: 502px;
+}
+
+.meme-container img {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  left: 50px;
+  position: absolute;
+  text-align: center;
+  text-shadow: black 5px 5px 5px;
+  top: 500px;
+  width: 450px;
+}
