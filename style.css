@@ -1,0 +1,51 @@
+
+
+
+.meme-text {
+    font-family: Roboto, sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    position: absolute;
+}
+
+.meme-image {
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    width: 450px;
+    height: 400px;
+}
+
+.meme-image-container {
+    font-family: Roboto, sans-serif;
+    width: 450px;
+    height: 400px;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+
+}
+.fire {
+    font-family: Roboto, sans-serif;
+    background-color:  red;
+    border: 3px solid red;
+    border-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.water {
+    font-family: Roboto, sans-serif;
+    background-color:  blue;
+    border: 3px solid blue;
+    border-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+
+}
+.earth {
+    font-family: Roboto, sans-serif;
+    background-color:  green;
+    border: 3px solid green;
+    border-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+}
