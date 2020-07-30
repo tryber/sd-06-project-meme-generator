@@ -1,0 +1,38 @@
+#meme-text{
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 45px;
+    text-transform: uppercase;
+    font-family: impact, sans-serif;
+    font-weight: 800;
+word-wrap: break-word;
+    }
+#text-input{
+    background-color: white;
+    border: black solid 1px;
+}
+#meme-image-container{
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 350px;
+    width: 350px;
+    margin-top: 10px;
+    position:  relative;
+    background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+}
+#meme-image{
+contain: size;
+}
+.siteText{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
