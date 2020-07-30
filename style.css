@@ -1,0 +1,31 @@
+
+#meme-image-container {
+    width: 400px;
+    height: 400px;  
+    position: relative;
+      background: rgb(255,255,255);
+      border: 1px 1px 1px 1px solid rgb(0,0,0); 
+      margin: auto;
+      text-align: center;
+  }
+  
+     #meme-text {
+      position : absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      font-size: 30px;
+      color: rgb(255,255,255);
+      text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+      text-align: center;
+  }  
+  
+  #meme-image{
+      width: 500px;
+      height: 500px;
+  }
+   
+  h1{
+    text-align: center;
+    color: lawngreen;
+  }
