@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+    <h1>Meme Generator</h1>
+  </div>
+
+  <div>
+    <div class="text-input">
+      </label>Texto: </label>
+      <input id="text-input" type="text" maxlength="60">
+    </div>
+    <br><br>
+    <div class="meme-insert">
+      <Label> Foto: </Label>
+      <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+    </div>
+  </div>
+
+  <br>
+
+  <div id="meme-image-container" class="meme-image-container">
+    <img id="meme-image" class="meme-image">
+    <div id="meme-text" class="meme-text"></div>
+  </div>
+
+  <h2>Estilos Customizados</h2>
+  <div class="botaoCustomizado">
+    <button id="fire" class="fire" type="submit" onclick="botaoFire()" style="background-color: red;">Fire</button>
+    <button id="water" class="water" type="submit" onclick="botaoWater()" style="background-color: blue;">Water</button>
+    <button id="earth" class="earth" type="submit" onclick="botaoEarth()" style="background-color: green;">Earth</button>
+  </div>
+
+  <h2>Memes Pré Prontos</h2>
+  <div>
+    <img src="imgs/meme1.png" class="smallMemes" id="meme-1" onclick="imgs(this)">
+    <img src="imgs/meme2.png" class="smallMemes" id="meme-2" onclick="imgs(this)">
+    <img src="imgs/meme3.png" class="smallMemes" id="meme-3" onclick="imgs(this)">
+    <img src="imgs/meme4.png" class="smallMemes" id="meme-4" onclick="imgs(this)">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

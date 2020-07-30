@@ -1,0 +1,40 @@
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  position: relative;
+  width: 450px;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  left: 20px;
+  margin: 0 auto;
+  overflow: auto;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 300px;
+}
+
+.meme-image {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.botaoCustomizado {
+  font-family: monospace;
+}
+
+.earth , .fire , .water {
+  height: 50px;
+  width: 100px;
+}
+
+.smallMemes {
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 70px;
+}
