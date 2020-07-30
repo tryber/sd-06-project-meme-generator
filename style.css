@@ -1,0 +1,29 @@
+body {
+  background-color: rgb( 234 , 226 , 183 );
+  color: rgb( 0 , 48 , 73 );
+  font-family: Trebuchet MS, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.meme_image {
+  height: 250px;
+  width: 250px;
+}
+
+.meme_image_container {
+  background-color: white;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 250px;
+  width: 250px;
+}
+
+.meme_text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  width: 300px;
+}
