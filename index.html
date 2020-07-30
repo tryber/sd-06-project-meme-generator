@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator - Fábio</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c91ae5b1f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <header>
+    <h1 class="tittle">Fábio's meme generator</h1>
+    <p>Upload an image, add text and send it to you friends!</p>
+  </header>
+  <main>
+
+    <div class="preloaded-memes">
+      <h3 class="heading3">Some suggestions:</h3>
+      <div class="meme1">
+        <img src="imgs/meme1.png" alt="example-meme-1" id="meme-1">
+      </div>
+      <div class="meme2">
+        <img src="imgs/meme2.png" alt="example-meme-1" id="meme-2">
+      </div>
+      <div class="meme3">
+        <img src="imgs/meme3.png" alt="example-meme-1" id="meme-3">
+      </div>
+      <div class="meme4">
+        <img src="imgs/meme4.png" alt="example-meme-1" id="meme-4">
+      </div>
+    </div>
+
+    <div class="app-container">
+      <div class="file-insert">
+        <input type="file" name="meme-insert" id="meme-insert">
+        <label for="meme-insert" class="upload" accept="image/*">Choose your image</label>
+      </div>
+      <div class="meme-image-container" id="meme-image-container">
+        <img src="imgs/placeholder.png" alt="placeholder" id="meme-image" class="meme-image">
+        <p id="meme-text" class="meme-text"></p>
+      </div>
+      <div class="text-container">
+        <label for="text-input">Meme's text:</label>
+        <input type="text" name="text-input" id="text-input" class="text-input" maxlength="60">
+      </div>
+    </div>
+
+    <div class="button-container">
+      <h3 class="heading3">Add a border!</h3>
+      <button id="fire" class="fire">Fire</button>
+      <button id="water" class="water">Water</button>
+      <button id="earth" class="earth">Earth</button>
+      <button id="remove" class="remove">Remove</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
