@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+
+  <title>Meme generator</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#"><h1>Not A Real Meme Generator !!</h1></a>
+      <a href="https://phelipe-ohlsen.github.io/portfolio/" class="other-projects" target="_blank">Visit other projects</a>
+    </div>
+  </header>
+  
+  <main>
+    <article>
+      <div class="container">
+        <section id="meme-image-container" class="left-side">
+          <img id="meme-image" src="https://dummyimage.com/439x392/aaa/fff.png&text=<Select+an+image>" alt="Meme's image" >
+
+          <div id="meme-text" class="meme-text"></div>
+          <div id="meme-text-bottom" class="meme-text-bottom"></div>
+        </section>
+
+        <section class="right-side">
+          <div class="right-container">
+            <span class="title">Choose a template</span>
+            <div class="memes-gallery">
+              <img id="meme-1" src="./imgs/meme1.png" alt="model 1">
+              <img id="meme-2" src="./imgs/meme2.png" alt="model 2">
+              <img id="meme-3" src="./imgs/meme3.png" alt="model 3">
+              <img id="meme-4" src="./imgs/meme4.png" alt="model 4">
+            </div>
+  
+            <span class="or">or</span>
+
+            <div class="essentials">
+              <div class="config image-upload">
+                  <input id="meme-insert" type="file" accept="image/*">
+                  <p>Select your own</p>
+              </div>
+
+              <div class="config">
+                <input id="text-input" type="text" maxlength="60" placeholder="Top text">
+                <input id="text-input-bottom" type="text" maxlength="60" placeholder="Bottom text">
+              </div>
+            </div>
+  
+            <div class="config optionals">
+              <div class="title">
+                Border
+              </div>
+              <div class="border-buttons">
+                <button id="fire" class="button fire">Fire</button>
+                <button id="water" class="button water">Water</button>
+                <button id="earth" class="button earth">Earth</button>
+              </div>
+            </div>
+  
+            <div>
+              <button class="button reset">Reset border</button>
+              <button class="button reset">Reset all</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <!-- <footer></footer> -->
+</body>
+</html>
