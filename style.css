@@ -1,0 +1,29 @@
+
+
+#meme-image-container {
+    display:inline-block;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+}
+
+#meme-image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#meme-text {
+    position: absolute;
+    color: red;
+    margin-top: -100px;
+    text-shadow: 2px 2px white;
+    font-size: 3em;
+}
+
+/* #image {
+    width: 50%;
+    
+} */
+
+
