@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  width: 30%;
+}
+
+.meme-text {
+  color: white;
+  font-family: rubik, sans-serif;
+  font-size: 30px;
+  margin: 20px;
+  overflow: auto;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 270px;
+  width: 90%;
+  z-index: 1;
+}
+
+.meme-insert {
+  margin-bottom: 15px;
+}
+
+img {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.left , .right {
+  padding-left: 50px;
+}
+
+.fire , .water , .earth {
+  border-radius: 20%;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+  margin: 20px 60px;
+  padding: 10px 20px;
+}
+
+.fire {
+  background-color: red;
+  border-color: rgb(220 , 160 , 10);
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.water {
+  background-color: blue;
+  border-color: rgb(70 , 150 , 225);
+  border-style: double;
+  border-width: 5px;
+}
+
+.earth {
+  background-color: green;
+  border-color: rgb(100 , 220 , 100);
+  border-style: groove;
+  border-width: 6px;
+}
+
+.fireBorder {
+  border-color: red;
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.waterBorder {
+  border-color: blue;
+  border-style: double;
+  border-width: 5px;
+}
+
+.earthBorder {
+  border-color: green;
+  border-style: groove;
+  border-width: 6px;
+}
+
+.meme-1 , .meme-2 , .meme-3 , .meme-4 {
+  cursor: pointer;
+  height: 100px;
+  padding: 30px;
+  width: 100px;
+}
+
+.meme-paragraph {
+  font-size: 20px;
+}
