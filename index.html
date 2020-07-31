@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-controllers">
+    <input type="text" placeholder="texto do meme" id="text-input" maxlength="60">
+    <input type="file" id="meme-insert" accept="image/*">
+    </div>
+    <div id="meme-image-container" class="container">
+        <img src="" id="meme-image" alt="" class="img-center">
+    </div>
+    <label class="text-container">
+        <h1 class="text-meme" id="meme-text"></h1>
+    </label>
+    <section class="controllers">
+    <label class="border" for="border">
+    <button id="fire" class="red">fire</button>
+    <button id="water" class="blue">water</button>
+    <button id="earth" class="brown">earth</button>
+    </label>
+    </section>
+    <section id='thumbnails-container' class="container-img">
+        <div>
+            <img src="imgs/meme1.png" alt="" id="meme-1" class="meme" width="200px" height="200px">
+        </div>
+        <div>
+            <img src="imgs/meme2.png" alt="" id="meme-2" class="meme" width="200px" height="200px">
+
+        </div>
+        <div>
+            <img src="imgs/meme3.png" alt="" id="meme-3" class="meme" width="200px" height="200px">
+        </div>
+        <div>
+            <img src="imgs/meme4.png" alt="" id="meme-4" class="meme" width="200px" height="200px">
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+</html>
