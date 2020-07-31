@@ -1,0 +1,167 @@
+html {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(3deg , rgb(20 , 24 , 25) 0% , rgb(59 , 67 , 67) 35% , rgb(156 , 156 , 156) 100%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 9px 0 0 0;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Yanone Kaffeesatz', 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-shadow: 
+    0 0 15px white,
+    0 0 15px white,
+    0 0 5px white;
+}
+
+h2 {
+  font-size: 2.1em;
+  margin-top: 20px;
+  text-shadow: 0 0 15px white;
+}
+
+#meme-inputs {
+  background-color: rgba(245 , 251 , 255 , 9%);
+  border-radius: 18px;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 1px 0;
+  width: 600px;
+}
+
+#meme-inputs > input[ type = 'text' ] {
+  border: 0;
+  border-radius: 14px;
+  margin: 4px 5px 6px;
+  padding: 8px 11px;
+}
+
+#meme-inputs > input[ type = 'text' ]:focus {
+  background-color: rgba(251 , 251 , 255 , 89%);
+  outline: none;
+}
+
+#container {
+  margin: auto;
+  padding: 0;
+  width: 710px;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px black solid;
+  float: left;
+  height: 400px;
+  margin: 0 auto;
+  padding: 1px;
+  position: relative;
+  width: 500px;
+}
+
+#meme-text {
+  bottom: 3px;
+  color: white;
+  font-size: 30px;
+  left: 4px;
+  padding: 2px 4px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
+}
+
+#meme-image {
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  z-index: 0;
+}
+
+#border-buttons {
+  float: right;
+  margin: 3px 0 0;
+  padding: 0;
+  width: 190px;
+}
+
+.border-button {
+  border: none;
+  border-radius: 50%;
+  color: rgba(255 , 255 , 255 , 80%);
+  display: block;
+  font-size: 1.1em;
+  height: 35px;
+  margin-bottom: 12px;
+  padding: 0;
+  text-align: center;
+  width: 35px;
+}
+
+.border-button:focus {
+  outline: none;
+}
+
+#fire {
+  background-color: red;
+}
+
+#fire:active {
+  background-color: darkred;
+}
+
+#water {
+  background-color: blue;
+}
+
+#water:active {
+  background-color: darkblue;
+}
+
+#earth {
+  background-color: green;
+}
+
+#earth:active {
+  background-color: darkgreen;
+}
+
+#reset {
+  background-color: dimgrey;
+}
+
+#reset:active {
+  background-color: darkslategrey;
+}
+
+#famous-memes {
+  float: right;
+  margin: 20px 0 0;
+  padding: 0;
+  text-align: left;
+  width: 190px;
+}
+
+.thumbnail {
+  border: 0;
+  height: 80px;
+  margin: 2px 3px 0 0;
+  width: 80px;
+}
+
+.thumbnail:active {
+  opacity: 0.5;
+}
