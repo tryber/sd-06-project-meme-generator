@@ -11,29 +11,4 @@ body {
     
     font-family: Helvetica neue, roboto;
   }
-  .meme-container {
-    position: absolute;
-    background-color: gray;
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .meme-text {
-    position: absolute;
-    left: auto;
-    top: 30px;
-    width: fit-content;
-    max-width: 300px;
-    z-index: 2;
-  } 
-    margin-top: px;
-    text-shadow: black 5px 5px 5px;
-    font-size: 30px;
-    color: white;
-    margin: 0px;
-  }
+  
