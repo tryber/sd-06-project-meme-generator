@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(cornsilk , burlywood , darkslategray);
+  color: black;
+  font-family: system-ui;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 10px;
+}
+
+.image-container {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  height: 360px;
+  max-height: 640px;
+  max-width: 840px;
+  position: relative;
+  width: 360px;
+
+}
+
+.meme-image {
+  border: 1px solid black;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.meme-text {
+  color: white;
+  float: left;
+  font-family: fantasy;
+  font-size: 30px;
+  margin-bottom: 10px;
+  max-height: 320px;
+  max-width: 320px;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  word-wrap: break-word;
+}
+
+.memes {
+  display: table;
+  margin: auto;
+}
+
+.memes a {
+  display: inline;
+  vertical-align: middle;
+}
+
+.meme01 {
+  margin: 5px;
+  max-width: 100%;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.meme01:hover {
+  transform: scale(2);
+}
+
+.meme02 {
+  margin: 5px;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.meme02:hover {
+  transform: scale(2);
+}
+
+.meme03 {
+  margin: 5px;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.meme03:hover {
+  transform: scale(2);
+}
+
+.meme04 {
+  margin: 5px;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.meme04:hover {
+  transform: scale(2);
+}
+
+.meme05 {
+  margin: 5px;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.meme05:hover {
+  transform: scale(2);
+}
+
+.fire {
+  background-color: red;
+  border: 5px solid whitesmoke;
+}
+
+.water {
+  background-color: blue;
+  border: 5px solid whitesmoke;
+}
+
+.earth {
+  background-color: green;
+  border: 5px solid whitesmoke;
+}

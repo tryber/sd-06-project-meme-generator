@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <h1>Meme Generator</h1>
+
+  <section>Texto:
+    <input id="text-input" type="text" maxlength="60">
+  </section>
+
+  <section>Foto:
+  <input id="meme-insert" type="file">
+  </section>
+
+  <div id="meme-image-container" class="image-container">
+    <img id="meme-image" class="meme-image">
+    <div id="meme-text" class="meme-text"></div>
+  </div>
+
+  <section>Estilos Customizados:</section>
+
+  <button id="fire" class="red" style="background-color: red;">Fire Border ❤️</button>
+  <button id="water" class="blue" style="background-color: blue;">Water Border &#128153</button>
+  <button id="earth" class="green" style="background-color: green;">Earth Border &#128154</button>
+
+  <section>
+    <p>Templates Memes:</p>
+  </section>
+
+  <section id="memes" class="memes">
+    <img src="imgs/meme1.png" id="meme-1" class="meme01" alt="Meme do Gato">
+    <img src="imgs/meme2.png" id="meme-2" class="meme02" alt="Meme Nazaré Cálculos">
+    <img src="imgs/meme3.png" id="meme-3" class="meme03" alt="Meme dos Piores Conselhos">
+    <img src="imgs/meme4.png" id="meme-4" class="meme04" alt="Meme Dança do Caixão">
+    <!-- <img src="imgs/meme5.png" id="meme-5" class="meme05" alt="Meme Aff"> -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
