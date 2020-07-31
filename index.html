@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" lang="en">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1 class="main-title">Meme Generator</h1>
+  <article class="page-description">This webpage accepts an image upload and a input text to generate a meme as follows:
+  </article>
+  <section class="input-section">
+    <div class="input-box">
+      <div>
+        Type the text: <input type="text" id="text-input" autofocus maxlength="60">
+      </div>
+      <div> Upload your file: <input type="file" id="meme-insert" accept="image/*" autofocus></div>
+    </div>
+  </section>
+  <div id="meme-image-container" class="meme-image-container">
+    <div id="meme-text" class="meme-text"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
