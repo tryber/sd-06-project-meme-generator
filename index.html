@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
+</head>
+<body>
+    <section id="size-page">
+       
+        <header id="title">
+            <h1 class="textTitle"> Meme Generator!</h1>
+        </header>
+
+        <section id="organiza-elementos">
+
+            <section id="body-input">
+                <h2 id="title-input">Texto do Meme:</h2>
+                <input id="text-input" type="text" maxlength="60">
+            </section>
+
+            <section id="choose-file">
+                <h2 id="title-foto">Imagem do Meme:</h2><input id="meme-insert" class="button" type="file" accept="image/*">
+            </section>
+        </section>
+
+        <section id="meme-image-container">
+            <div id="meme-text"></div>
+            <img id="meme-image" class="meme-image">
+        </section>
+
+        <section>
+            <span class="styleCustons">Estilos Customizados:</span>
+            <button id="fire" class="fire">Fire</button>
+            <button id="water" class="water">Water</button>
+            <button id="earth" class="earth">Earth</button>
+        </section>
+
+        <div class="imgsMemes">
+            <img id="meme-1" src="imgs/meme1.png">
+            <img id="meme-2" src="imgs/meme2.png">
+            <img id="meme-3" src="imgs/meme3.png">
+            <img id="meme-4" src="imgs/meme4.png">
+        </div>
+    </section>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

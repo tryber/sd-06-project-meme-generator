@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(201, 247, 174);
+}
+
+#size-page {
+    width: 800px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    background-color: rgb(63, 87, 54);
+    padding-left: 50px;
+    padding-right: 60px;
+    border: 3px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+#title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#body-input {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#text-input {
+    float: right;
+    margin-top: 4px;
+    margin-left: 72px;
+    width: 285px;
+    border: 2px solid black;
+}
+
+#title-input {
+    float: left;
+    margin: 0px;
+}
+
+#title-foto {
+    float: left;
+    margin-top: 10px; 
+    margin-right: 0px;   
+}
+
+.button {
+    float: right;
+    margin-top: -45px;
+    margin-right: 250px;
+    padding-right: 25px;
+    padding-left: 41px;
+    border-radius: 10px;
+}
+
+#meme-image-container {
+    border: 1px solid black;
+    height: 430px;
+    width: 100%;
+    margin-top: 70px;
+    background-color: white;
+    position: relative;
+}
+
+.styleCustons {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#fire {
+    border: 3px dashed red;
+}
+
+.fire {
+    background-color: red;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#water {
+    border: 5px double blue;
+}
+
+.water {
+    background-color: blue;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#earth {
+    border: 6px groove green;
+}
+
+.earth {
+    background-color: green;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    overflow-wrap: auto;
+    position: absolute;
+    z-index: 100;
+}
+
+#meme-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#meme-1 {
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#meme-2 {
+    width: 150px;
+    margin-left: 55px;
+    margin-top: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#meme-3 {
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#meme-4 {
+    width: 150px;
+    margin-left: 58px;
+    margin-top: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
