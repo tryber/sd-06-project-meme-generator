@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="main-content">
+      <div id="title-container">
+        <h1>Meme Generator</h1>
+      </div>
+
+      <div id="input-content" class="text-content">
+        Texto:
+        <input id="text-input" type="text" class="input-text" maxlength="60">
+
+        <div class="meme-input">Foto:
+          <input id="meme-insert" type="file">
+        </div>
+      </div>
+
+      <div id="meme-image-container" class="image-container">
+        <img id="meme-image" class="meme-img" src="">
+        <div id="meme-text" class="center-text"></div>
+      </div>
+      <div class="button-container">
+        <p class="text-border">Bordas estilizadas.</p>
+        <button id="fire" class="border-btn red">Fire</button>
+        <button id="water" class="border-btn blue">Water</button>
+        <button id="earth" class="border-btn green">Earth</button>
+      </div>
+
+      <div class="memes-container">
+        <img id="meme-1" class="memes-img" src="imgs/meme1.png">
+        <img id="meme-2" class="memes-img" src="imgs/meme2.png">
+        <img id="meme-3" class="memes-img" src="imgs/meme3.png">
+        <img id="meme-4" class="memes-img" src="imgs/meme4.png">
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
