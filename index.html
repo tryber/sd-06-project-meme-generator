@@ -15,16 +15,22 @@
           <h1>Meme Generator</h1>
         </div>
         <div class="input-text-user">
-        <!--1.1 A caixa onde o texto é inserido deve ter um id denominado text-input;-->
+        
             <label for="fname">First name:</label><br>
             <input type="text" id="text-input" name="fname"><br><br>
         </div>
-        <!--1.2 Você deve criar um elemento para servir de "container" para a imagem e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;-->   
-            <div  id = "meme-image-container">
-              <img src="https://www.fotoefeitos.com/out/1044382410358284786" alt="meme-image" width="180">
-            
-            <h3 id="meme-text" class="meme-text">Seu texto aparecerá aqui!</h3>
-          </div>
+        
+       <div  id = "meme-image-container">
+       <img id="meme-image" src="https://www.fotoefeitos.com/out/1044382410358284786" alt="Imagem inserida" width="180">
+       
+      <h3 id="meme-text" class="meme-text">Seu texto aparecerá aqui!</h3>
+      
+      <label for="myfile">Select a file:</label><br>
+      <input type="file" id="meme-insert" name="myfile">
+      </div>
+
+  </div>
+                
 
   <script href="script.js"></script>
 </body>
