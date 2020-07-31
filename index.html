@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://freepngimg.com/download/internet_meme/3-2-troll-face-meme-png.png" type="image/gif" sizes="16x16">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+
+    <div id="make-your-meme">
+        <label id="label-text">Texto: </label><input type="text" id="text-input" onkeyup="textInput()" maxlength="60"></p>
+        <label id="label-foto">Foto: </label><input type="file" id="meme-insert" visibility="hidden" accept="image/*" onchange="imageInput()">
+    </div>
+
+    <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" class="meme_image"/>
+        <div id="meme-text" class="meme-text"></div>
+    </div>
+
+    <div id="customize">
+        <h4>Estilos customizados</h4>
+        <button id="fire" type="submit" onclick="fireCustom()" style="background-color: red;">Fire</button>
+        <button id="water" type="submit" onclick="waterCustom()" style="background-color: blue;">Water</button>
+        <button id="earth" type="submit" onclick="earthCustom()" style="background-color: green;">Earth</button>
+    </div>
+    <div class="meme-examples">
+        <h4>Memes Prontos</h4>
+        <img src="/imgs/meme1.png" id="meme-1" alt="meme1" onclick="firstMeme()">
+        <img src="/imgs/meme2.png" id="meme-2" alt="meme2" onclick="secondMeme()">
+        <img src="/imgs/meme3.png" id="meme-3" alt="meme3" onclick="thirdMeme()">
+        <img src="/imgs/meme4.png" id="meme-4" alt="meme4" onclick="fourthMeme()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
