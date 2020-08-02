@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Meme Generator Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="main-title">Meme Generator</h1>
+  </header>
+  <p>Meme's Text: <input id="text-input" type="text" maxlength="60"> </p>
+  <p> Meme's image: <input id="meme-insert" type="file" accept="image/*"></p>
+  <div class="image-container" id="meme-image-container">
+    <img class="image" id="meme-image" src="">
+    <p class="text" id="meme-text"></p>
+  </div>
+  <div class="button-border">
+    <button class="button-fire" id="fire">Fire</button>
+    <button class="button-water" id="water">Water</button>
+    <button class="button-earth" id="earth">Earth</button>
+  </div>
+  <div class="pre-made-img-container">
+    <img id="meme-1" src="imgs/meme-1.png" width="100px" height="100px">
+    <img id="meme-2" src="imgs/meme-2.png" width="100px" height="100px">
+    <img id="meme-3" src="imgs/meme-3.png" width="100px" height="100px">
+    <img id="meme-4" src="imgs/meme-4.png" width="100px" height="100px">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
