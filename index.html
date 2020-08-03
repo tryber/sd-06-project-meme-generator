@@ -13,7 +13,7 @@
     </header>
 <section>
    Text: <input type="text" id="text-input" name="Name" maxlength="60" /> <br> <br> 
-  Picture: <input type="file" id="meme-image" accept=".jpg, .gif, .png" />
+  Picture: <input type="file" id="meme-image" accept=".jpg, .gif, .png" onchange="image(event)"/>
 
    <div id="meme-image-container" class="meme-image-container">
     <img id="meme-image" class="meme-image"></img>

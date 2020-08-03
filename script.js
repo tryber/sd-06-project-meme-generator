@@ -4,9 +4,9 @@ text.addEventListener('input',function(){
     note.innerHTML = text.value;
 });
 
-let image = function (image_input) {
+let image = function (event) {
     let output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(image_input.target.files[0]);
+    output.src = URL.createObjectURL(event.target.files[0]);
     output.onload = function () {
       URL.revokeObjectURL(output.src)
     }
