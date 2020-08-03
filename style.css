@@ -1,0 +1,14 @@
+body {
+    background: rgb(236, 168, 21); 
+    color: rgb(48, 21, 168);
+  
+    margin: 0;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Helvetica neue, roboto;
+  }
+  
