@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(229 , 229 , 229);
+    margin-left: 10px;
+    text-align: center;
+    width: 1366px;
+    background-image: url(https://c8.alamy.com/comp/2A2EX82/fun-3d-yellow-emoticon-face-seamless-pattern-background-with-copy-space-social-chat-app-icon-wallpaper-for-modern-online-project-or-funny-children-pr-2A2EX82.jpg);
+}
+
+.head  {
+    background-color: rgb(3, 3, 3);
+}
+.display{
+
+}
+
+.meme-container{
+    background-color: white;
+    height: 350px;
+    top: 60px;
+    width: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    position: absolute;
+}
+
+.border{
+    border: black solid 1px;
+}
+
+.meme-image{
+    width: 350px;
+    height: 350px;
+}
+
+.meme-text{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    text-shadow: black 5px 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.earth{
+    border: rgb(0, 255, 0) groove 6px;
+    background-color: rgb(0, 255, 0);
+}
+
+.fire{
+  border: red dashed 3px;
+  background-color: rgb(255, 0, 0);
+}
+
+.water{
+  border: rgb(0, 0, 255) double 5px;
+  background-color: rgb(0, 0, 255);
+}
