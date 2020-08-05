@@ -9,17 +9,28 @@
   </head>
   <body>
     <header>
-        <h1>Meme Generator</h1>
+        <h1 id="title">Meme Generator</h1>
     </header>
-<section>
-    Text: <input type="text" id="text-input" maxlength="60" size="30" /> <br> <br> 
-    Picture: <input type="file" id="meme-insert" accept=".jpg, .gif, .png" />
 
-   <div id='meme-image-container' class="meme-image-container">
-    <img id='meme-image' class="meme-image"></img>
-    <p id='meme-text' class="meme-text"></p>
-</div>
-</section>
-<script type="text/javascript" src="script.js"> </script>
+  <div>
+    <h2 >Text</h2>
+    <input type='text' id='text-input' maxlength='60' size='30' >
+    <div>
+      <h2>Picture:</h2>
+      <input type="file" accept=".jpg, .gif, .png" id="meme-insert"/>
+    </div>
+  </div> 
+    
+  
+  <div>
+    <div id="meme-image-container">
+      <div id="meme-text"></div>
+      <img id="meme-image"/>
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="script.js"></script>
   </body>
 </html>

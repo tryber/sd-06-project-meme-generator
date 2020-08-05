@@ -1,6 +1,10 @@
-body {
-    font-family: Roboto, sans-serif;
+.meme-image-container {
 
+    background-color: white;
+    border: 10px solid black;
+    height: 400px;
+    position: relative;
+    width: 600px;
 }
 
 
@@ -23,11 +27,5 @@ body {
     top: 85%;
 }
 
-.meme-image-container {
 
-    background-color: white;
-    border: 1px solid black;
-    height: 400px;
-    position: relative;
-    width: 600px;
-}
+
