@@ -1,6 +1,6 @@
 const inputImage = document.querySelector('#meme-insert');
-const memeImage = document.querySelector('#meme-image');
 const inputText = document.querySelector('#text-input');
+const memeImage = document.querySelector('#meme-image');
 const memeText = document.querySelector('#meme-text');
 
 inputImage.addEventListener('change', function (event) {
