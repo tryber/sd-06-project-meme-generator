@@ -4,10 +4,15 @@ text.addEventListener('input',function(){
     note.innerHTML = text.value;
 });
 
-let image = function (event) {
-    let output = document.getElementById('meme-image');
-    output.src = URL.createObjectURL(event.target.files[0]);
-    output.onload = function () {
-      URL.revokeObjectURL(output.src)
+
+const photoInsert = document.getElementById('meme-insert')
+const memeImage = document.getElementById('meme-image')
+
+
+photoInsert.addEventListener('change',function(){
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+    memeImage.style.maxWidth ='100%';
+    memeImage.onload = function(){
+        URL.revokeObjectURL(memeImage.src)
     }
-};
+});

@@ -5,7 +5,6 @@ body {
 
 
 .meme-text {
-    font-family: Roboto, sans-serif;
     color: white;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
@@ -17,6 +16,7 @@ body {
     position: absolute;
     width: 450px;
     height: 450px;
+    border: 1px solid black;
 }
 
 .meme-image-container {
@@ -28,7 +28,6 @@ body {
 
 }
 .fire {
-    font-family: Roboto, sans-serif;
     background-color:  red;
     border: 3px solid red;
     border-bottom: 20px;
@@ -36,7 +35,6 @@ body {
     font-weight: bolder;
 }
 .water {
-    font-family: Roboto, sans-serif;
     background-color:  blue;
     border: 3px solid blue;
     border-bottom: 20px;
@@ -45,7 +43,6 @@ body {
 
 }
 .earth {
-    font-family: Roboto, sans-serif;
     background-color:  green;
     border: 3px solid green;
     border-bottom: 20px;
