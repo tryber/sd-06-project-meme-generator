@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <header>
+    <h1>Meme generator</h1>
+    <h2>Os melhores memes da internet! &#128540;</h2>
+  </header>
+  <label class="display-text">Add your text 
+    <input type="text" id="text-input" placeholder="add your text"  maxlength="60" onkeyup="onLoadText()">
+  </label><br><br>
+  <label class="display-img">Choose a photo 
+    <input type="file" id="meme-insert" onchange="onLoadImg()">
+  </label><br><br>
+  
+  <div id="meme-image-container" class="meme_image_container">
+    <img id="meme-image"class="meme_image" alt="Imagem do meme">
+    <p id="meme-text" class="meme_text"></p>
+    <label id="meme-text" class="memeText"></label>
+  </div>
+
+  <div>
+    <label>Estilos customizados:</label>
+    <div>
+        <button id="fire" class="btn fire" onclick="changeBorderFire()">
+            <label>Fire <span> <img src="imgs/fogo.png" /> </span></label>
+        </button>
+        <button id="water" class="btn water" onclick="changeBorderWater()">
+            <label>Water <span> <img src="imgs/agua.png" /> </span> </label>
+        </button>
+        <button id="earth" class="btn earth" onclick="changeBorderEarth()">
+            <label>Earth <span> <img src="imgs/earth.png" /> </span> </label>
+        </button>
+    </div>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
