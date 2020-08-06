@@ -1,0 +1,76 @@
+.padraoBotao {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 30px;
+    margin: 5px;
+    width: 100px;
+}
+
+.padraoSugeridos {
+    height: 70px;
+    margin: 10px;
+    width: 100px;
+}
+
+#meme-image-container {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 500px;
+    width: 500px;
+}
+
+#meme-image {
+    height: 500px;
+    position: absolute;
+    width: 500px;
+}
+
+#meme-text {
+    color: white;
+    font-family: "Lucida Grande";
+    font-size: 30px;
+    font-style: oblique;
+    position: absolute;
+    text-shadow: black 5px 5px 5px;
+    top: 520px;
+    left: 20px;
+}
+
+#bordaAzul {
+    border-color: blue;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+#bordaVermelha {
+    border-color: red;
+    border-style: double;
+    border-width: 1px;
+}
+
+#bordaVerde {
+    border-color: green;
+    border-style: ridge;
+    border-width: 1px;
+}
+
+#btnWater {
+    background-color: blue;
+    color: white;
+}
+
+#btnFire {
+    background-color: red;
+    color: white;
+}
+
+#btnEarth {
+    background-color: green;
+    color: white;
+}
+
+#cachorroPreguica {
+    margin-left: 0;
+}
