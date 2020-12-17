@@ -33,13 +33,25 @@ body {
 }
 
 .border-fire {
-  border: 3px dashed rgb(197, 7, 7);
+  border: 3px dashed rgb(255, 0, 0);
 }
 
 .border-water {
-  border: 5px double rgb(20, 20, 156);
+  border: 5px double rgb(0, 0, 255);
 }
 
 .border-earth {
-  border: 6px groove rgb(21, 128, 21);
+  border: 6px groove rgb(0, 128, 0);
+}
+
+#fire {
+  background-color: rgb(255, 0, 0);
+}
+
+#water {
+  background-color: rgb(0, 0, 255);
+}
+
+#earth {
+  background-color: rgb(0, 128, 0);
 }
