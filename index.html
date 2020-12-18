@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,21 +15,40 @@
     <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
     <p>
       Foto:
-      <input
-        type="file"
-        id="meme-insert"
-        accept="image/*"
-        onchange="loadImage(event)"
-      />
+      <input type="file" id="meme-insert" accept="image/*" onchange="loadImage(event)" />
     </p>
     <div id="meme-image-container" class="border-default">
       <p id="meme-text"></p>
       <img id="meme-image" />
     </div>
+    <br />
     <div>
       <button id="fire">Fire</button>
       <button id="water">Water</button>
       <button id="earth">Earth</button>
+    </div>
+    <br />
+    <div class="meme-img-area">
+      <img
+        src="img/meme1.jpg"
+        class="meme-img"
+        onclick="loadPreLoadImage('img/meme1.jpg')"
+      />
+      <img
+        src="img/meme2.jpg"
+        class="meme-img"
+        onclick="loadPreLoadImage('img/meme2.jpg')"
+      />
+      <img
+        src="img/meme3.jpg"
+        class="meme-img"
+        onclick="loadPreLoadImage('img/meme3.jpg')"
+      />
+      <img
+        src="img/meme4.jpg"
+        class="meme-img"
+        onclick="loadPreLoadImage('img/meme4.jpg')"
+      />
     </div>
     <script src="script.js"></script>
   </body>
