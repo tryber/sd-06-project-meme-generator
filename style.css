@@ -1,0 +1,122 @@
+body {
+  background-image: linear-gradient(rgb(150, 118, 72), rgb(200, 138, 92));
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1fr minmax(200px, 1fr) 1fr 3fr;
+  grid-template-areas:
+    "title"
+    "meme"
+    "buttons"
+    "inputs";
+  height: 100vh;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 10px;
+}
+
+.title {
+  animation: rainbow-title 0.7s linear infinite forwards;
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    orange
+  );
+  background-clip: text;
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(240, 238, 222);
+  grid-area: title;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  transition: background-position 400ms ease;
+}
+
+@keyframes rainbow-title {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  /* 100% {
+    background-position: 0 50%;
+  } */
+}
+
+/*.title:hover {
+  background-position: 0 100%;
+}*/
+
+.inputs {
+  background-color: rgb(240, 238, 222);
+  border-radius: 5px;
+  display: grid;
+  grid-area: inputs;
+  height: 80%;
+  padding: 10px 15px 10px 15px;
+  width: minmax(360px, 70%);
+}
+
+.border-button {
+  padding: 5px 10px;
+}
+
+.meme-container {
+  box-sizing: border-box;
+  grid-area: meme;
+  justify-self: center;
+  position: relative;
+  object-fit: cover;
+}
+
+.meme-image {
+  height: 100%;
+  width: auto;
+}
+
+.meme-text {
+  bottom: 10px;
+  box-sizing: border-box;
+  color: yellow;
+  font-size: 20px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+}
+
+.meme-image {
+  width: 100%;
+}
+
+.sample-images {
+  grid-area: buttons;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  justify-content: center;
+  background-color: rgb(240, 238, 222);
+  border-radius: 5px;
+  padding: 10px 15px 10px 20px;
+  margin-top: 15px;
+  height: fit-content;
+  width: minmax(360px, 70%);
+}
+
+.sample {
+  width: 50px;
+  height: 50px;
+}
