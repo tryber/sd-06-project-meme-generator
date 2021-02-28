@@ -1,24 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Meme Generator</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
   <h1 class="title" id="titulo">MEME GENERATOR!</h1>
-  <div class="inputs" id="inputs-container">
-    <label for="text-input">Insira o texto aqui:</label>
-    <input name="text-input" id="text-input" type="text" maxlength="60" placeholder="máximo 60 caracteres">
-    <button class="input-button" id="meme-button">Inserir no meme</button>
-    <br>
-    <label>Faça o upload da imagem:</label>
-    <input name="meme-insert" id="meme-insert" type="file" accept=".jpg, .png, .bmp" onchange="imgInput(event)">
-    <br>
-    <div class="border-colors">
-      <button class="border-button fire" id="fire">Fire &#128293;</button>
-      <button class="border-button water" id="water">Water &#127754;</button>
-      <button class="border-button earth" id="earth">Earth &#127795;</button>
-      <button class="border-button" id="normal">Normal</button>
+  <div class="inputs-container">
+    <div class="inputs" id="inputs-container">
+      <label for="text-input">Insira o texto aqui:</label>
+      <input name="text-input" id="text-input" type="text" maxlength="60" placeholder="máximo 60 caracteres">
+      <button class="input-button" id="meme-button">Inserir no meme</button>
+      <br>
+      <label>Faça o upload da imagem:</label>
+      <input name="meme-insert" id="meme-insert" type="file" accept=".jpg, .png, .bmp" onchange="imgInput(event)">
+      <br>
+      <div class="border-colors">
+        <button class="border-button fire" id="fire">Fire &#128293;</button>
+        <button class="border-button water" id="water">Water &#127754;</button>
+        <button class="border-button earth" id="earth">Earth &#127795;</button>
+        <button class="border-button" id="normal">Normal</button>
+      </div>
     </div>
   </div>
 
   <div id="meme-image-container" class="meme-container">
-    <div class="meme-text" id="meme-text"></div>
-    <img class="meme-image" id="meme-image">
+    <div class="meme-image">
+      <div class="meme-text" id="meme-text"></div>
+      <img class="meme-image" id="meme-image">
+    </div>
   </div>
 
   <div class="sample-images" id="sample-images">
