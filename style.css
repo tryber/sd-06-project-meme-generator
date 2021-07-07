@@ -1,0 +1,62 @@
+main {
+    height: 100%;
+    display: block;
+}
+
+#meme-image-container img{
+    width: 450px;
+    height: 450px;
+}
+#meme-image-container {
+    padding: 15px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+#meme-text {
+    position:absolute;
+}
+
+
+p {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: #000 5px 5px 5px;    
+
+}
+
+.customization {
+    color: red;
+    font-size: 25px;
+}
+
+#fire {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+#water {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+
+#earth {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+
+
+.fire-button{
+    border: 3px dashed red;
+}
+
+.pre-images img {
+    width: 80px;
+}
